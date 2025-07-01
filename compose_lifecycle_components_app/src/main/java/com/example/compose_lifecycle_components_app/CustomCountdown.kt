@@ -35,7 +35,6 @@ class CustomCountdown(
 
     fun stop() = timer.cancel()
 
-
     class IntervalTimer(
         private val onTick: ((currentValue: Int)-> Unit),
         private val onFinish: (() -> Unit),
